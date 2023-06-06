@@ -739,6 +739,7 @@ GameObject:
   - component: {fileID: 1559507913}
   - component: {fileID: 1559507912}
   - component: {fileID: 1559507915}
+  - component: {fileID: 1559507916}
   m_Layer: 0
   m_Name: Plane (1)
   m_TagString: Untagged
@@ -755,7 +756,7 @@ Transform:
   m_GameObject: {fileID: 1559507910}
   m_LocalRotation: {x: 0, y: 0.70710677, z: -0.70710677, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 78.41}
-  m_LocalScale: {x: 16.110867, y: 1.0069292, z: 9.062362}
+  m_LocalScale: {x: 12, y: 1, z: 14}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 963194228}
@@ -838,11 +839,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageCount: 12
-  path: Assets/Images
+  path: 
   prefix1: raytraced_frame
   prefix2: foveated_frame
   format: png
   imageOnDisplay: {fileID: 2100000, guid: 8df637313fb3383418e9687f07fe8626, type: 2}
+  debugImage: {fileID: 2800000, guid: 3fde56eeafa9e9542af52bda495c96e8, type: 3}
+  testRoutineController: {fileID: 0}
+  foveated: 0
+--- !u!114 &1559507916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559507910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56d44c03e9aded640bc2e9e570d7b6f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ElapsedTime: 0
+  ElapsedRoundTime: 0
+  images: 0
+  repeats: 4
+  exposureTime: 10
+  restingTime: 2
+  testInSession: 0
+  resting: 0
+  voting: 0
+  RoundIndexes: 
 --- !u!1 &1684951658 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4283425761326543017, guid: 1f4d373a613d0466fbd8849470265852,
