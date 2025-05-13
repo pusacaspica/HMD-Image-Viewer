@@ -17,6 +17,7 @@ These images were used on user experiments of a couple of works, developed durin
  - Henriques, Horácio, et al. "A mixed path tracing and NeRF approach for optimizing rendering in XR Displays." Simpósio de Realidade Virtual e Aumentada (SVR). SBC, 2023.
  - Henriques, Horácio, et al. "Foveated Path Culling: A mixed path tracing and radiance field approach for optimizing rendering in XR Displays." Journal on Interactive Systems 15.1 (2024): 576-590.
  - Henriques, Horácio, et al. "Analysing Hybrid Neural and Ray Tracing Perception for Foveated Rendering." Simpósio de Realidade Virtual e Aumentada (SVR). SBC, 2024.
+
 And, very soon, if everything works out
  - Henriques, Horácio, et al. "Comparing Perceptual Visual Quality of Hybrid Neural and Ray Tracing in Foveated Rendering." Journal on Interactive Systems 16.1 (2025).
 
